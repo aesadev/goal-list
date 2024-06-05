@@ -1,9 +1,13 @@
-import FirstGoal from "./components/FirstGoal.jsx";
+import GoalList from './components/GoalList.jsx';
+import Header from './components/Header.jsx';
 
 function App() {
     return (
         <>
-           <FirstGoal />
+            <Header />
+            <main>
+                <GoalList />
+            </main>
         </>
     );
 }
